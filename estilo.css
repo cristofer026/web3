@@ -1,0 +1,209 @@
+*{
+     box-sizing: border-box;
+     padding-top: 0;
+     margin: 0;
+
+}
+
+body{
+ margin: 0;
+ font-size: 1rem;
+ line-height: 1.5;
+ color: #333;
+ overflow-x: hidden;
+
+}
+
+header{
+height: 100vh;
+display: flex;
+align-items: center;
+ color: #fff;
+
+}
+
+.content{
+max-width: 49rem;
+padding-left: 1rem;
+padding-right: 1rem;
+margin: auto;
+text-align: center;
+}
+
+.header-video{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header-video{
+min-width: 100%;
+min-height: 100%;
+}
+
+.header-overlay{
+height: 100vh;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background: #070707;
+z-index: 1;
+opacity: 0.8;
+}
+
+.header-content{
+z-index: 2; 
+
+}
+.header-content h1{
+    font-size:  50px;
+    margin-bottom: 0; 
+    font-family: 'Scheherazade New', serif;
+}
+
+.header-content p{
+    font-size: 1.5rem;
+    display: block; 
+    padding-bottom: 2rem;
+
+}
+
+.btn{
+    background: darkorange;
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius:  5px ;
+
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 5rem;
+    color: #fff;
+}
+
+
+.menu{
+    height: 30px;
+    text-align: center;
+}
+nav{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    background: #000;
+    
+}
+
+main{
+
+    background-image: url(img/imagen1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+    height: 50rem;
+    width: 100%;
+}
+.esp{
+    display: inline-block;
+    background-color: rgba(245, 245, 245, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    margin:  20px 50px 20px 50px;
+
+}
+
+.aca{
+    text-align: center;
+    color: white;
+    padding-top:  20px;
+    padding-bottom: 20px;
+    font-family: 'Scheherazade New', serif;
+
+}
+ .titulo{
+     margin-top: 2px;
+     margin-bottom: 2px;
+     font-size: 30px;
+
+ }
+.dat{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.hab{
+
+    border-top:  solid white 2 px;
+}
+.len{
+
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 200px;
+    width: auto;
+}
+
+
+
+footer{
+
+    width: 100%;
+    height: 100px;
+    background-color: black;
+
+}
+.redes{
+    padding-top: 1rem;
+    width: 50px;
+    height:auto;
+}
+
+.autor{
+    border-top: solid #fff 2px;
+    background-color: rgb(32, 32, 32);
+
+}
+.diseñador{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: cornsilk;
+    font-size: 15px;
+}
+
+.datos{
+
+    font-family: 'Bebas Neue', cursive;;
+}
+h4{
+    font-size: 20px;
+}
+
+.len:hover{
+
+    margin-left: 60px;
+    margin-right: 60px;  
+    height: 300px;
+    width: auto;
+   transition: 1s;
+}
+
+.datos:hover{
+
+    border-bottom: solid white 2px;
+    transition: 1s;
+ font-size: 20px;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
